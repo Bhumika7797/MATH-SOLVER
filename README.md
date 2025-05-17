@@ -31,8 +31,7 @@
 ---
 
 ## 📁 Folder Structure
-<details>
-  <summary>📁 <strong>Folder Structure (Click to expand)</strong></summary>
+
 math-doubt-solver/
 │
 ├── client/ # React frontend (Vite)
@@ -42,6 +41,7 @@ math-doubt-solver/
 ├── package.json # Project metadata
 └── README.md # You’re reading it!
 
+  
 ## 🧪 How to Use
 
 1. Enter your 📱 phone number (e.g., `+91XXXXXXXXXX`)
