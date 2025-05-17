@@ -1,51 +1,10 @@
-// const Tesseract = require('tesseract.js');
-// const fs = require('fs');
-
-// module.exports = async function extractTextFromImage(imagePath) {
-//   try {
-//     const { data: { text } } = await Tesseract.recognize(imagePath, 'eng');
-//     return text.replace(/\n/g, ' ').trim();
-//   } finally {
-//     fs.unlink(imagePath, () => {});
-//   }
-// };
-
-// const Tesseract = require('tesseract.js');
-// const fs = require('fs');
-
-// module.exports = async function extractTextFromImage(imagePath) {
-//   try {
-//     const { data: { text } } = await Tesseract.recognize(imagePath, 'eng');
-
-//     let expression = text.replace(/\n/g, ' ').trim();
-
-//     // Fix Unicode superscript: convert ² → ^2, ³ → ^3
-//     const superscriptMap = {
-//       '⁰': '0', '¹': '1', '²': '^2', '³': '^3',
-//       '⁴': '^4', '⁵': '^5', '⁶': '^6', '⁷': '^7',
-//       '⁸': '^8', '⁹': '^9'
-//     };
-//     expression = expression.replace(/[\u00B2\u00B3\u2070-\u2079]/g, ch => superscriptMap[ch] || '');
-
-//     // Remove extra whitespace
-//     expression = expression.replace(/\s+/g, '');
-
-//     // Replace common OCR misreads
-//     expression = expression.replace(/–/g, '-'); // en-dash to minus
-
-//     console.log("Cleaned OCR Expression:", expression);
-//     return expression;
-//   } finally {
-//     fs.unlink(imagePath, () => {});
-//   }
-// };
 
 const fs = require('fs');
 const path = require('path');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // Load Gemini API key from environment or paste directly
-const genAI = new GoogleGenerativeAI("AIzaSyD2xKuOiwG2kjNfWZUZ8xlOJ7_dYKW5OxE"); // replace this with your actual key
+const genAI = new GoogleGenerativeAI("YOUR_GEMINI_API"); // replace this with your actual key
 
 // Convert file to base64
 function fileToBase64(filePath) {
