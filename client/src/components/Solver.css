@@ -1,0 +1,52 @@
+/* === src/components/Solver.css === */
+.solver-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  animation: popUp 0.6s ease-in-out;
+}
+
+.solver-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.solver-form label {
+  font-weight: 500;
+  color: #34495e;
+}
+
+.solver-form input[type="text"], .solver-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.solver-form button {
+  padding: 12px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.solver-form button:hover {
+  background-color: #27ae60;
+}
+
+.success-message {
+  margin-top: 20px;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+@keyframes popUp {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
