@@ -39,8 +39,10 @@ A smart web application that solves math problems in just a few clicks and sends
 
 ## 📸 Sample Screenshot
 
-![image](https://github.com/user-attachments/assets/3a9e6c63-a88a-4f41-bb2d-2524dbde4113)
-![image](https://github.com/user-attachments/assets/500e69d7-f540-4ce7-8bb6-cbf77dce26a2)
+![image](https://github.com/user-attachments/assets/b8843418-433f-4b57-8970-8cc6637b0d46)
+![image](https://github.com/user-attachments/assets/1207e0e3-50db-4b8b-99a0-8dd407712ee6)
+
+
 
 
 ---
