@@ -29,7 +29,7 @@ const MathSolver = () => {
     try {
       setMessage('Sending your math problem...');
       // Replace URL below with your backend endpoint
-      const response = await axios.post('http://localhost:5000/api/problems', formData);
+      const response = await axios.post('YOUR_LOCALHOST_API', formData);
       if (response.status === 200) {
         setMessage('Solution sent to your WhatsApp number!');
         setphoneNumber('');
