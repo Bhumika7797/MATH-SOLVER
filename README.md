@@ -1,4 +1,4 @@
-# MathSolver
+
 # 📐 MathSolver 🔍
 
 A smart web application that solves math problems in just a few clicks and sends the solution directly to your WhatsApp!
