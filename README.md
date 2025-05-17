@@ -31,6 +31,8 @@
 ---
 
 ## 📁 Folder Structure
+<details>
+  <summary>📁 <strong>Folder Structure (Click to expand)</strong></summary>
 math-doubt-solver/
 │
 ├── client/ # React frontend (Vite)
@@ -46,8 +48,6 @@ math-doubt-solver/
 2. Upload a math problem as text or image
 3. Hit **Submit** 📨
 4. Wait for the solution in your WhatsApp chat! ✅
-
----
 
 ---
 
