@@ -31,7 +31,7 @@
 ---
 
 ## 📁 Folder Structure
-
+```
 math-doubt-solver/
 │
 ├── client/ # React frontend (Vite)
@@ -40,7 +40,7 @@ math-doubt-solver/
 ├── utils/ # WhatsApp messaging logic
 ├── package.json # Project metadata
 └── README.md # You’re reading it!
-
+```
   
 ## 🧪 How to Use
 
